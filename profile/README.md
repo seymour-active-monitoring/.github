@@ -10,10 +10,11 @@ Seymour offers open-source, easy-to-configure active monitoring, allowing users 
 
 ## Why we built Seymour
 
-We built Seymour to help engineering teams bolster existing testing approaches and handle the challenges of monitoring their increasingly complex systems. Our solution enables rapid detection of issues in production before users experience them. Seymour's infrastructure is easily deployed on your AWS account with [two CLI commands](https://github.com/seymour-active-monitoring/infra-setup).
+We built Seymour to enable rapid detection of issues in production before they impact user experience.
 
 ## Get started
-Please visit the [infra-setup repo](https://github.com/seymour-active-monitoring/infra-setup) to get started.
+
+Seymour's infrastructure is easily deployed on your AWS account with [two CLI commands](https://github.com/seymour-active-monitoring/infra-setup).
 
 ## Components
 
