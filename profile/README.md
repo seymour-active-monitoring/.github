@@ -1,9 +1,9 @@
-<a href="https://seymour-active-monitoring.github.io/seymour-website/"><img width="258" alt="seymour_drkblue_textPNG" src="https://user-images.githubusercontent.com/30358327/185257271-f8a8d4f9-8892-483f-a0e8-67530303ffd6.png">
+<a href="https://seymour-active-monitoring.github.io/seymour-website/"><img width="258" alt="seymour_drkblue_textPNG" src="https://user-images.githubusercontent.com/30358327/185257271-f8a8d4f9-8892-483f-a0e8-67530303ffd6.png"></a>
 
 
   ## About
 
-Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability, response time, and correctness of API endpoint responses and sends alerts when these don't meet expectations. 
+Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability, response time, and correctness of API endpoint responses, and sends alerts when these don't meet expectations. 
 
 <img width="1060" alt="Screen Shot 2022-08-17 at 3 59 02 PM" src="https://user-images.githubusercontent.com/30358327/185258138-8883f9b4-37b9-4a41-9af5-900b0a3dc2fb.png">
 
@@ -12,8 +12,10 @@ Seymour offers open-source, easy-to-configure active monitoring, allowing users 
 
 We built Seymour to help engineering teams bolster existing testing approaches and handle the challenges of monitoring their increasingly complex systems. Our solution enables rapid detection of issues in production before users experience them. Seymour's infrastructure is easily deployed on your AWS account with [two CLI commands](https://github.com/seymour-active-monitoring/infra-setup).
 
+## Get started
+Please visit the [infra-setup repo](https://github.com/seymour-active-monitoring/infra-setup) to get started.
 
-## Seymour Components:
+## Components
 
 1. The [UI](https://github.com/seymour-active-monitoring/tests-ui) provides a simpled, focused interface for configuring tests and viewing test run results
 2. The [Backend Service](https://github.com/seymour-active-monitoring/tests-crud) provides APIs for test configuration and test result data
