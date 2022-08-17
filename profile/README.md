@@ -1,9 +1,10 @@
-# Seymour
-## What is Seymour?
+[![seymour](./../public/images/logo_with_text.png)](https://seymour-active-monitoring.github.io/seymour-website/)
 
-Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability, response time, and correctness of API endpoint responses. 
+## About
 
-![Test results page](./../assets/images/results_screenshot.png)
+Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability, response time, and correctness of API endpoint responses and alerts you when they don't meet expectations. 
+
+![Test results page](./../public/images/results_screenshot.png)
 
 ## Why we built Seymour
 
