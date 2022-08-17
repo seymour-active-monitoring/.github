@@ -12,7 +12,7 @@ Read the case study ** insert link ** to learn more.
 
 1. The [UI](https://github.com/seymour-active-monitoring/tests-ui) provides a simpled, focused interface for configuring tests and viewing test run results
 2. The [Backend Service](https://github.com/seymour-active-monitoring/tests-crud) provides APIs for test configuration and test result data
-3. Test Route Packager
-4. Test Runner
-5. Test Results Writer
-6. Test Alerts
+3. [Test Route Packager](https://github.com/seymour-active-monitoring/test-route-packager) is a lambda function responsbile for distributing test configuration data to remote regions
+4. [Test Runner](https://github.com/seymour-active-monitoring/test-runner) is a lambda function that executes an API call according to a test configuration and assesses the response
+5. [Test Result Writer](https://github.com/seymour-active-monitoring/test-result-writer) is a lambda function that writes test results tot he database. For failed tests, it also triggers the Test Alerts lambda function
+6. [Test Alerts](https://github.com/seymour-active-monitoring/test-alerts) is a lambda function responsible for alerting user of failed tests through various channels (email, slack, discord)
