@@ -26,5 +26,5 @@ Seymour's infrastructure is easily deployed on your AWS account with [two CLI co
 6. [test-alerts](https://github.com/seymour-active-monitoring/test-alerts) is a Lambda responsible for sending notifications through various channels (email, slack, discord)
 
 ## Learn More
-Read the [case study](https://seymour-active-monitoring.github.io/seymour-website/) to learn more.
+Read the [case study](https://seymour-active-monitoring.github.io/) to learn more.
 
