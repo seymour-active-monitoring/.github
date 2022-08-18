@@ -3,7 +3,7 @@
 
   ## About
 
-Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability and latency and correctness of API endpoint responses, and sends alerts when these don't meet expectations. 
+Seymour offers open-source, easy-to-configure active monitoring, allowing users test their API endpoints continuously from globally distributed locations. Seymour measures the availability, latency and correctness of API endpoint responses, and sends alerts when these don't meet expectations. 
 
 <img width="1060" alt="Screen Shot 2022-08-17 at 3 59 02 PM" src="https://user-images.githubusercontent.com/30358327/185258138-8883f9b4-37b9-4a41-9af5-900b0a3dc2fb.png">
 
