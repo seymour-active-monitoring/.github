@@ -18,12 +18,12 @@ Seymour's infrastructure is easily deployed on your AWS account with [two CLI co
 
 ## Components
 
-1. The [UI](https://github.com/seymour-active-monitoring/tests-ui) provides a simpled, focused interface for configuring tests and viewing test run results
-2. The [Backend Service](https://github.com/seymour-active-monitoring/tests-crud) provides APIs for test configuration and test result data
-3. [Test Route Packager](https://github.com/seymour-active-monitoring/test-route-packager) is a lambda function responsbile for distributing test configuration data to remote regions
-4. [Test Runner](https://github.com/seymour-active-monitoring/test-runner) is a lambda function that executes an API call according to a test configuration and assesses the response
-5. [Test Result Writer](https://github.com/seymour-active-monitoring/test-result-writer) is a lambda function that writes test results tot he database. For failed tests, it also triggers the Test Alerts lambda function
-6. [Test Alerts](https://github.com/seymour-active-monitoring/test-alerts) is a lambda function responsible for alerting user of failed tests through various channels (email, slack, discord)
+1. [tests-ui](https://github.com/seymour-active-monitoring/tests-ui) provides a simple interface for configuring tests and viewing test run results
+2. [tests-crud](https://github.com/seymour-active-monitoring/tests-crud) manages test configuration CRUD operations, result aggregation and communicates with AWS EventBridge through the AWS SDK
+3. [test-route-packager](https://github.com/seymour-active-monitoring/test-route-packager) is a Lambda responsbile for packaging data for distribute to remote regions
+4. [test-runner](https://github.com/seymour-active-monitoring/test-runner) is a Lambda responsible for executing the test configuration-defined API call and assessing the response
+5. [test-result-writer](https://github.com/seymour-active-monitoring/test-result-writer) is a Lambda responsible for persisting test results, and, for failed tests, triggering the `test-alerts` Lambda
+6. [test-alerts](https://github.com/seymour-active-monitoring/test-alerts) is a Lambda responsible for sending notifications through various channels (email, slack, discord)
 
 ## Learn More
 Read the [case study](https://seymour-active-monitoring.github.io/seymour-website/) to learn more.
