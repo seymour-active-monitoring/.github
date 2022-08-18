@@ -1,4 +1,4 @@
-<a href="https://seymour-active-monitoring.github.io/seymour-website/"><img width="258" alt="seymour_drkblue_textPNG" src="https://user-images.githubusercontent.com/30358327/185257271-f8a8d4f9-8892-483f-a0e8-67530303ffd6.png"></a>
+<a href="https://seymour-active-monitoring.github.io/seymour-website/"><img width="258" alt="seymour_drkblue_text" src="https://user-images.githubusercontent.com/30358327/185293218-a4e1439f-d9bc-4eb3-b4e0-48e937a5dfa6.png"></a>
 
 
   ## About
