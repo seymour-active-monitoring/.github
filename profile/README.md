@@ -16,7 +16,7 @@ We built Seymour to enable rapid detection of issues in production before they i
 
 Seymour's infrastructure is easily deployed on your AWS account with [two CLI commands](https://github.com/seymour-active-monitoring/infra-setup).
 
-## Components
+## Repos
 
 1. [tests-ui](https://github.com/seymour-active-monitoring/tests-ui) provides a simple interface for configuring tests and viewing test run results
 2. [tests-crud](https://github.com/seymour-active-monitoring/tests-crud) manages test configuration CRUD operations, result aggregation and communicates with AWS EventBridge through the AWS SDK
